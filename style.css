@@ -1,19 +1,23 @@
 body {
   font-family:kalam;
   background-color: rgb(90, 25, 25);
+  padding: 30px;
 }
 
 .container {
   max-width: 320px;
   margin: 30px auto;
-  padding: 20px;
+  padding: 30px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: cursive;
   background-color: #ff5845;
-  margin-top: 20px;
-  padding-right:80px;
+  
+  padding-right: 45px;
+  padding-left:10px ;
+  padding-top: 30px ;
+  padding-bottom: 60px;
   align-items: center;
   
   
@@ -90,14 +94,14 @@ button {
   flex-direction: column; 
   margin-top: 20px;
   min-height: 130px;
-  width: 300px;
+  width: calc(100% - 00px);
   color: #A52A2A;
   background-color: #f8f9fa;
   font-size: 20px;
   font-weight: bold;
   border-radius: 1ch;
   position: relative; 
-  align-self: center;
+  
   font-family: kalam;
 }
 
