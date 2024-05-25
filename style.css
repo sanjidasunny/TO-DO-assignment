@@ -1,6 +1,6 @@
 body {
-  font-family: cursive;
-  background-color: white;
+  font-family:kalam;
+  background-color: rgb(90, 25, 25);
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
   margin: 30px auto;
   padding: 20px;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: cursive;
   background-color: #ff5845;
@@ -16,13 +16,14 @@ body {
   padding-right:80px;
   align-items: center;
   
+  
 }
 
 input {
   color: #A52A2A;
   font-weight:bold;
   background-color: white;
-  font-family: cursive;
+  font-family: kalam;
   border-radius: 5px;
   margin-left: 40px;
   border-width: 0.4ch;
@@ -32,13 +33,14 @@ h2,h3{
   color: white;
   align-self: center;
   padding-left: 40px;
+  font-family: kalam;
 }
 .addMe{
   color: #A52A2A;
   font-weight:bold;
   background-color: white;
   margin-top: 15px;
-  font-family: cursive;
+  font-family: kalam;
   border-radius: 5px;
   height: 30px;
   width: 90px;
@@ -80,6 +82,7 @@ button {
   padding: 10px;
   
   overflow-wrap: break-word;
+  font-family: kalam;
 
 }
 .todo-item {
@@ -95,6 +98,7 @@ button {
   border-radius: 1ch;
   position: relative; 
   align-self: center;
+  font-family: kalam;
 }
 
 .todo-item .button-container {
@@ -113,7 +117,7 @@ button {
   color: white;
   height: 30px;
   width: 60px;
-  font-family: cursive;
+  font-family: kalam;
   border-radius: 5px;
   
   
@@ -131,6 +135,7 @@ button {
 .clearAllBtn{
   background-color:  #A52A2A; 
   color: white; 
+  font-family: kalam;
 }
 .dropdownBtn {
   background-color: #A52A2A;
