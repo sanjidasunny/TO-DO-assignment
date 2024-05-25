@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 320px;
   margin: 30px auto;
   padding: 20px;
   background-color: #fff;
@@ -12,6 +12,8 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: cursive;
   background-color: #ff5845;
+  margin-top: 20px;
+  padding-right:50px;
   
 }
 
@@ -56,24 +58,8 @@ button {
 
 }
 
-.todo-item {
-  display: flex;
-  margin-top: 20px;
-  height: 130px;
-  width: 350px;
-  color: #A52A2A;
-  background-color: #f8f9fa;
-  align-items: start;
-  font-size:  20px;
-  font-weight: bold;
-  border-radius: 1ch;
-  align-self: center;
-  align-content: center;
-  margin-right: 70px;
- 
-  
 
-}
+
 .todo-checkbox {
   
   align-self:first  baseline;
@@ -86,40 +72,56 @@ button {
   
 }
 
-.todo-text {
-  flex: 1;
-  text-align:left;
+.todo-item.todo-text {
+  flex: 1; /* Grow to fill remaining space */
+  padding: 10px; /* Add padding to separate text from buttons */
+  
+  overflow-wrap: break-word;
 
 }
-
-.todo-item.button-container {
+.todo-item {
   display: flex;
-  justify-content: center;
-  margin-left: 200px; 
+  flex-direction: column; /* Display children vertically */
+  margin-top: 20px;
+  min-height: 130px;
+  width: 300px;
+  color: #A52A2A;
+  background-color: #f8f9fa;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 1ch;
+  position: relative; /* Set position to relative */
+}
+
+.todo-item .button-container {
+  display: flex;
+  justify-content: space-between; /* Distribute buttons evenly */
+  padding: 10px; /* Add padding around buttons */
   
 }
 
-.saveBtn,.cancelBtn{
-  margin: 05px;
-  align-self: flex-start;
-  margin-top: 10px;
- 
-  background-color:  #A52A2A;
-  color: white; 
-  height: 30px;
-  width:60px;
-}
+.saveBtn,
+.cancelBtn,
 .editBtn,
 .deleteBtn {
-  margin: 05px;
-  align-self: center;
-  margin-top: 70px;
-  background-color:  #A52A2A; 
-  color: white; 
+  margin: 5px;
+  background-color: #A52A2A;
+  color: white;
   height: 30px;
-  width:60px;
-
+  width: 60px;
+  font-family: cursive;
+  border-radius: 5px;
+  
+  
 }
+
+.saveBtn:hover,
+.cancelBtn:hover,
+.editBtn:hover,
+.deleteBtn:hover {
+  background-color: #910f0f; /* Darken the background on hover */
+}
+
 
 
 .clearAllBtn{
@@ -145,6 +147,8 @@ button {
   width:60px;
   align-items: center;
   text-align: center;
+  padding-left: 7px;
+  margin-left: 8px;
 }
 
 .dropdownBtn:focus {
