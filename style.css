@@ -1,0 +1,170 @@
+body {
+  font-family: cursive;
+  background-color: white;
+}
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: cursive;
+  background-color: #ff5845;
+  
+}
+
+input {
+  color: #A52A2A;
+  font-weight:bold;
+  background-color: white;
+  font-family: cursive;
+  border-radius: 5px;
+
+  border-width: 0.4ch;
+  border-color:#A52A2A;
+}
+h2,h3{
+  color: white;
+}
+.addMe{
+  color: #A52A2A;
+  font-weight:bold;
+  background-color: white;
+  margin-top: 15px;
+  font-family: cursive;
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  border-width: 0.4ch;
+  border-color:#A52A2A;
+}
+button {
+  color: #A52A2A;
+  font-weight:bold;
+  background-color: white;
+  margin-top: 15px;
+  font-family: cursive;
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  border-width: 0.4ch;
+  border-color:#A52A2A;
+  
+
+
+}
+
+.todo-item {
+  display: flex;
+  margin-top: 20px;
+  height: 130px;
+  width: 350px;
+  color: #A52A2A;
+  background-color: #f8f9fa;
+  align-items: start;
+  font-size:  20px;
+  font-weight: bold;
+  border-radius: 1ch;
+  align-self: center;
+  align-content: center;
+  margin-right: 70px;
+ 
+  
+
+}
+.todo-checkbox {
+  
+  align-self:first  baseline;
+  
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  color: #A52A2A;
+  
+  
+}
+
+.todo-text {
+  flex: 1;
+  text-align:left;
+
+}
+
+.todo-item.button-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px; 
+  
+}
+
+.saveBtn,.cancelBtn{
+  margin: 05px;
+  align-self: flex-start;
+  margin-top: 10px;
+ 
+  background-color:  #A52A2A;
+  color: white; 
+  height: 30px;
+  width:60px;
+}
+.editBtn,
+.deleteBtn {
+  margin: 05px;
+  align-self: center;
+  margin-top: 70px;
+  background-color:  #A52A2A; 
+  color: white; 
+  height: 30px;
+  width:60px;
+
+}
+
+
+.clearAllBtn{
+  background-color:  #A52A2A; 
+  color: white; 
+}
+.dropdownBtn {
+  background-color: #A52A2A;
+  color: white;
+ 
+  border-radius: 5px;
+  border-width: 0.4ch;
+  cursor: pointer;
+  scrollbar-color: white;
+  align-self: center;
+  margin-top: 10px;
+  margin-right: 5px;
+  appearance: none;
+  font-weight: bold;
+  font-family: cursive;
+  border-color:rgb(135, 14, 14);
+  height: 30px;
+  width:60px;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdownBtn:focus {
+  outline: none;
+  border-color: red;
+  box-shadow: 0 0 0 0.2rem rgba(195, 1, 30, 0.25);
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.dropdownBtn option {
+  background-color: #A52A2A;
+  color: white;
+  border-color: rgb(101, 2, 22);
+  font-weight: bold;
+  font-family: cursive;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
