@@ -13,7 +13,7 @@ body {
   font-family: cursive;
   background-color: #ff5845;
   margin-top: 20px;
-  padding-right:50px;
+  padding-right:80px;
   
 }
 
@@ -23,7 +23,7 @@ input {
   background-color: white;
   font-family: cursive;
   border-radius: 5px;
-
+  
   border-width: 0.4ch;
   border-color:#A52A2A;
 }
